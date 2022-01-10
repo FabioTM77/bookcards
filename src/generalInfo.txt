@@ -1,0 +1,26 @@
+https://www.npmjs.com/package/react-search-field
+
+
+to fetch:
+
+1) npm install --save superagent
+
+2 ) Google Books API restrict key:
+
+AIzaSyAITnM1k-gEXutSO5frsZscmtqGKI8-FLI
+
+
+https://console.cloud.google.com/apis/credentials/wizard?project=the-golden-age-of-the-sci-fi&supportedpurview=project
+
+
+https://console.cloud.google.com/apis/credentials?project=the-golden-age-of-the-sci-fi&supportedpurview=project
+
+https://www.googleapis.com/books/v1/volumes?q=search+terms&key=AIzaSyAITnM1k-gEXutSO5frsZscmtqGKI8-FLI
+
+
+https://www.googleapis.com/books/v1/volumes?q=search+terms
+
+
+
+
+
