@@ -1,27 +1,30 @@
-//import React, {Component} from 'react';
-import React from "react";
+import React, {Component} from 'react';
+//import React from "react";
 import "./App.css";
 import Header from "./Header";
 import BookCards from "./BookCards";
-import FindABook from "./FindABook";
 
-/*class App extends Component {
+
+class App extends Component {
   render(){
   return (
     <React.Fragment>
     <div className="App">
-    
-<Header/> 
-      
-    </div>
+        <Header />
+      </div>
+      <br />
+      <br />
+      <div>
+        <BookCards />
+      </div>
     </React.Fragment>
   );
   }
 }
 
-export default App;*/
+export default App;
 
-const App = () => {
+/*const App = () => {
   return (
     <React.Fragment>
       <div className="App">
@@ -32,11 +35,12 @@ const App = () => {
       <div>
         <BookCards />
       </div>
+     
     </React.Fragment>
   );
-};
+};*/
 
-export default App;
+//export default App;
 
 /* 
 

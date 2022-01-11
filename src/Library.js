@@ -11,10 +11,11 @@ const Library = (props) => {
         props.books.map((book, i) => {
             return(
             <Bookcard
-            /*title={}
-            author={}
-            image={}
-            published={}*/
+            key={i}
+            title={book.volumeInfo.title}
+            author={book.volumeInfo.authors}
+            image={book.volumeInfo.imageLinks}
+            published={book.volumeInfo.publishDate}
             
             
             
