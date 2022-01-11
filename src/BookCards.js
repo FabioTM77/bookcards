@@ -10,6 +10,7 @@ class BookCards extends Component {
     this.state = {
       books: [],
       searchField: "",
+      sort: ""
     };
   }
 
@@ -39,11 +40,16 @@ class BookCards extends Component {
     this.setState({ searchField: e.target.value });
   };
 
+  handleSort =(e) =>{
+    console.log(e.target.value)
+    this.setState({ sort: e.target.value})
+  }
+
   render() {
     return (
       <React.Fragment>
         <div>
-          <FindABook searchNewBook={this.searchNewBook} handleSearch={this.handleSearch} />
+          <FindABook searchNewBook={this.searchNewBook} handleSearch={this.handleSearch} handleSort={this.handleSort}/>
           <Library books={this.state.books}/>
         </div>
       </React.Fragment>
